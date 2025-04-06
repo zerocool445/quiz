@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="quiz-container">
+            <div id="question">Q1: What is 1 + 1?</div> <!-- Added question number -->
+            <button class="answer" onclick="checkAnswer(this)">2</button>
+            <button class="answer" onclick="checkAnswer(this)">3</button>
+            <button class="answer" onclick="checkAnswer(this)">4</button>
+            <div id="result"></div>
+            <button id="next" onclick="nextQuestion()">Next Question</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
